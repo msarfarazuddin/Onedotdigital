@@ -156,7 +156,7 @@ const Footer = ({ title, subtitle, content }) => {
                   required
                   className={getInputClass('services')}
                 >
-                  <option value="" className="text-black">Select a service</option>
+                  <option value="" className="text-black">Choose the service you’re interested in</option>
                   <option value="Branding & Design" className="text-black">Branding & Design</option>
                   <option value="Web Design" className="text-black">Web Design</option>
                   <option value="SEO Services" className="text-black">SEO Services</option>
@@ -172,7 +172,7 @@ const Footer = ({ title, subtitle, content }) => {
                   id="budget"
                   name="budget"
                   type="text"
-                  placeholder="Budget"
+                  placeholder="Estimated budget range"
                   value={budget}
                   onChange={(e) => setBudget(e.target.value)}
                   onFocus={() => handleFocus('budget')}
@@ -188,7 +188,7 @@ const Footer = ({ title, subtitle, content }) => {
               <textarea
                 id="message"
                 name="message"
-                placeholder="Details of services you require...."
+                placeholder="Briefly tell us about your project, goals, or challenges…"
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
                 onFocus={() => handleFocus('message')}
@@ -208,7 +208,7 @@ const Footer = ({ title, subtitle, content }) => {
               className="group flex items-center gap-4 text-white hover:text-secondary transition-all duration-300 focus:outline-none"
             >
               <span className="text-xl font-semibold border-b-2 border-transparent group-hover:border-secondary transition-all duration-300">
-                Submit Enquiry
+               Get a Free Consultation
               </span>
               <div className="bg-secondary text-white p-3 rounded-full transition-all duration-300 group-hover:scale-110 group-hover:rotate-45">
                 <ArrowUpRight className="w-6 h-6" />

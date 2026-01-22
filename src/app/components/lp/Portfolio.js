@@ -169,11 +169,10 @@ export default function Portfolio() {
             <div className="px-6 sm:px-12 xl:px-20 ">
                 <div className="absolute z-50 w-full left-2/4 top-2/4 pt-32 xl:pt-0 xl:pb-56 transform translate-x-[-50%] translate-y-[-50%]">
                     <div id="textportfolio" className="relative inline-block m-auto float-none z-10 opacity-0">
-                        <div className="mb-6 leading-tight text-black text-2xl font-glancyr">
-                            As the first light breaks<br />
-                            the silence, a glimpse of our<br />
-                            creativity unfolds.
+                        <div className="mb-3 leading-tight text-black text-2xl font-glancyr">
+                            Work That Speaks for Itself
                         </div>
+                        <p className="mb-3  text-black  font-glancyr">A curated selection of projects where strategy, design,<br></br> and creativity come together to deliver real brand impact.</p>
                         <a
                             href="#"
                             download
@@ -184,7 +183,7 @@ export default function Portfolio() {
 
                             {/* Text Content */}
                             <span className="relative z-10">
-                                <span className="inline-block relative z-10">D</span>ownload Profile
+                                <span className="inline-block relative z-10">D</span>ownload Company Profile
                             </span>
                         </a>
 

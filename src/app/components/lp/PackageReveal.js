@@ -109,9 +109,9 @@ export default function PackageReveal() {
         <div className="absolute inset-0 flex items-center justify-center p-4">
           <h2
             ref={headingRef}
-            className="text-white text-4xl md:text-7xl font-extralight font-glancyr drop-shadow-lg -mb-10 text-center"
+            className="text-white text-3xl md:text-6xl font-extralight font-glancyr drop-shadow-lg -mb-10 text-center"
           >
-            Dive Into<br /> Strategic<br /> Success
+            Smart Strategy<br /> Strong Execution<br /> Real Results
           </h2>
         </div>
       </div>

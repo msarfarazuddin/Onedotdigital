@@ -236,15 +236,15 @@ export default function Hero() {
                   className="inline-block transition-all duration-500"
                   style={{ color: "#fff" }} // initially white
                 >
-                  Services
+                  Smart Digital
                 </span>
               </h2>
             </div>
             <div ref={bottomBlockRef} className="bottom-block mt-20">
-              <p className="text-2xl md:text-3xl font-light font-glancyr mb-2">That Turn</p>
+              <p className="text-2xl md:text-3xl font-light font-glancyr mb-2">Services</p>
               <h2 className="text-2xl md:text-4xl font-medium font-glancyr">
-                Business Challenges
-                <br /> into Opportunities
+                Designed to Scale Brands, 
+                <br /> Not Just Decorate Them
               </h2>
             </div>
 
@@ -279,12 +279,12 @@ export default function Hero() {
             {/* See how we work card */}
             <div className="bg-[#959595] rounded-[2rem] p-6 md:p-8 flex flex-col justify-between lg:min-h-[320px] md:min-h-[320px] min-h-[280px] text-white">
               <p className="text-lg font-normal mb-4">
-                Ever wondered how
+               Curious about our process?
                 <br />
-                design magic happens?
+                Explore how strategy, design & execution come together
               </p>
               <div className="flex items-center justify-between">
-                <h3 className="text-xl md:text-3xl font-medium font-glancyr">See how <br /> we work</h3>
+                <h3 className="text-xl md:text-3xl font-medium font-glancyr">Our Process</h3>
                 <a href="#contact" onClick={scrollToContact} className="cursor-pointer">
                   <ArrowUpRight className="w-20 h-20 p-5 bg-[#333333] rounded-[99px] transition-transform hover:scale-110" />
                 </a>
@@ -294,9 +294,8 @@ export default function Hero() {
             {/* Meet our expert card */}
             <div className="bg-three   rounded-[2rem] p-6 md:p-8 flex flex-col justify-between lg:min-h-[320px] md:min-h-[320px] min-h-[280px]">
               <p className="text-lg font-normal mb-4">
-                Looking for design      <br />
-                experts who can bring      <br />
-                your vision to life?
+              Your brand deserves experienced professionals, not guesswork.<br />
+                Work with experts who know what converts
               </p>
               <div className="flex items-center justify-between">
                 <h3 className="text-xl md:text-3xl font-medium font-glancyr">Meet our <br /> expert</h3>

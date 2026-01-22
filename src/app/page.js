@@ -22,9 +22,9 @@ export default function Home() {
             {/* <Affordable /> */}
             <Portfolio />
             <Footer
-                title="Let's Collaborate!"
-                subtitle="Grow Your Business with Us!"
-                content="Our unique process will help you define your ideal customer and goals, so we know who to target with your website and online marketing."
+                title="Let’s Build Your Next Growth Move"
+                subtitle="Ready to grow your brand?"
+                content="Share your goals with us, and we’ll help you craft a strategy that drives real results for your business."
             />
         </main>
     );
