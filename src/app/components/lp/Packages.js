@@ -372,7 +372,7 @@ export default function Packages() {
     };
 
     return (
-        <div className="w-full box-content flex flex-col items-center justify-center" style={{
+        <div className="w-full flex flex-col items-center justify-center" style={{
             background: 'linear-gradient(90deg, rgba(4, 83, 98, 1) 36%, rgba(13, 106, 123, 1) 61%, rgba(14, 109, 127, 1) 100%)',
             minHeight: '100vh',
             color: 'white',
@@ -380,7 +380,7 @@ export default function Packages() {
         }}>
 
 
-            <div className="lg:w-full md:full  mx-auto sm:px-4 md:mt-2 mt-0 lg:mt-2 lg:mb-16 md:scale-[0.9]  lg:scale-[0.9]">
+            <div className="lg:w-full md:full  mx-auto sm:px-4 md:mt-2 mt-0 lg:mt-2 lg:mb-10 md:scale-[0.8] lg:scale-[0.75] xl:scale-[0.5] 2xl:scale-[0.9] origin-top">
                 {/* <h2 className="text-5xl md:text-7xl lg:text-9xl mb-2 sm:-mb-6 tracking-widest font-black text-white text-center">
                     PACKAGES
                 </h2> */}
